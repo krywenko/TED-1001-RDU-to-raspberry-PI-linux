@@ -1,6 +1,6 @@
 this Is  a software that allows a ted 1001 RDU to communicate with  raspberry/orange pi or any linux based computer
-simply edit ted1a.pl to your network configutation and for MQtt publish information  and it will publish all data 
-about voltage a  power to MQTT to which can be added to any dashboard that support MQTT( nod-red, freeboard, emoncms etc...
+simply edit ted1a.pl to your network configutation and for MQtt publish information  and it will publish all data about 
+voltage and  power to MQTT. to which can be added to any dashboard that support MQTT( nod-red, freeboard, emoncms etc...)
  it support up to 3 mtu unit simply edit the ted1a.pl with the corresponding hex of your  ted MTUs 
  
  once you have configured the file  simply copy to you bin folder, make executable, and set a cron job to start tedStart.pl
