@@ -19,4 +19,6 @@ example mtu# 229 = 0xe5
  edit line 123 if you have a third MTU#
  if you need more  mtus just copy and paste line 58 to line 92 and paste at line
 153  and edit accordingly 
+
+the MQtt topic is TED  and to get volts it is TED/volt
  
