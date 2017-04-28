@@ -1,0 +1,13 @@
+ these are your ted run files. it is was set up on a ubuntu 13.04 computer  so 
+if you are using a  different  flavour of linux adjust accordingly 
+ 
+ edit lines starting at  51 to match your specific configuration
+ 
+ edit  line  62  to match your MTU# of your ted 1001 it is the hex  of it
+example mtu# 229 = 0xe5
+(http://www.mathsisfun.com/binary-decimal-hexadecimal-converter.html)
+ edit line 93 if you have a second MTU#
+ edit line 123 if you have a third MTU#
+ if you need more  mtus just copy and paste line 58 to line 92 and paste at line
+153  and edit accordingly 
+ 
