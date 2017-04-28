@@ -1,7 +1,16 @@
- these are your ted run files. it is was set up on a ubuntu 13.04 computer  so 
-if you are using a  different  flavour of linux adjust accordingly 
+this Is  a software that allows a ted 1001 RDU to communicate with  raspberry/orange pi or any linux based computer
+simply edit ted1a.pl to your network configutation and for MQtt publish information  and it will publish all data 
+about voltage a  power to MQTT to which can be added to any dashboard that support MQTT( nod-red, freeboard, emoncms etc...
+ it support up to 3 mtu unit simply edit the ted1a.pl with the corresponding hex of your  ted MTUs 
  
- edit lines starting at  51 to match your specific configuration
+ once you have configured the file  simply copy to you bin folder, make executable, and set a cron job to start tedStart.pl
+ at boot.
+ 
+  tedStart.pl is the watchdog --it will start  ted1a.pl when ever it is not present.
+  ted1a.pl is the decoding, quality control  and publishing software for your ted MTU
+  
+  
+ edit MTU lines starting at  10 to match your specific configuration
  
  edit  line  62  to match your MTU# of your ted 1001 it is the hex  of it
 example mtu# 229 = 0xe5
